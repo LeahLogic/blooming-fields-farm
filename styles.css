@@ -1,0 +1,136 @@
+ .hero-section {
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hydrangeas1.jpeg');
+     background-size: cover;
+     background-position: center;
+     color: white;
+     padding: 150px 0;
+     margin-bottom: 30px;
+ }
+
+ .item {
+     background-color: #328E6E;
+ }
+
+ .navbar-brand {
+     font-size: 1.6rem;
+     font-weight: 600;
+ }
+
+ .navbar-nav .nav-link {
+     font-size: 1.2rem;
+     font-weight: 500;
+ }
+
+ .product-card {
+     transition: transform 0.3s;
+     margin-bottom: 20px;
+ }
+
+ .product-card:hover {
+     transform: translateY(-10px);
+ }
+
+ .section-title {
+     position: relative;
+     margin-bottom: 40px;
+     padding-bottom: 15px;
+ }
+
+ .section-title:after {
+     content: '';
+     position: absolute;
+     bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 80px;
+     height: 3px;
+     background-color: #328E6E;
+ }
+
+ .btn-outline-custom {
+     color: #328E6E;
+     border: 2px solid #328E6E;
+     background-color: transparent;
+     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+ }
+
+ .btn-outline-custom:hover {
+     background-color: #328E6E;
+     color: white;
+     border-color: #328E6E;
+ }
+
+ .berry-btn:hover {
+     background-color: #1c513e !important;
+     color: white !important;
+ }
+
+ .visit-card {
+     border: none;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+ }
+
+ footer {
+     background-color: #343a40;
+     color: white;
+ }
+
+ .educational-notice {
+     background: linear-gradient(135deg, #328E6E 0%, #4caf93 100%);
+     color: white;
+     padding: 20px;
+     border-radius: 10px;
+     margin-top: 30px;
+     border-left: 5px solid #ffeb3b;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ }
+
+ .educational-notice .project-link {
+     color: #ffeb3b !important;
+     text-decoration: none;
+     font-weight: 500;
+     transition: all 0.3s;
+ }
+
+ .educational-notice .project-link:hover {
+     color: white !important;
+     text-decoration: underline;
+ }
+
+ .tech-icon {
+     transition: transform 0.3s;
+ }
+
+ .tech-icon:hover {
+     transform: scale(1.1);
+ }
+
+ .modal-header {
+     border-bottom: none;
+ }
+
+ .modal-content {
+     border-radius: 15px;
+     overflow: hidden;
+     border: none;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+ }
+
+ .btn-close-white {
+     filter: invert(1) grayscale(100%) brightness(200%);
+ }
+
+ #visitCounter {
+     width: 100%;
+     text-align: center;
+     margin: 15px auto;
+     padding: 10px 0;
+ }
+
+ #visitCounter>div {
+     padding: 10px 20px;
+     border-radius: 20px;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+ }
